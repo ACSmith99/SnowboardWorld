@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Everything Snowboards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+         body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .w3-bar, h1, button {
+            font-family: "Cursive, Fantasy";
+        }
+        .w3-bar {
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .w3-bar a {
+            color: #ffffff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #0099cc;
+            text-align: center;
+        }
+        .w3-container {
+            background-color: #f2f2f2;
+        }
+        .w3-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .w3-button {
+            background-color: #0099cc;
+            color: #ffffff;
+        }
+        .w3-button:hover {
+            background-color: #006699;
+        }
+        .w3-opacity {
+            opacity: 0.7;
+        }
+        a{
+            text-decoration: none;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            border: 5px solid black; /* Thick black border for the first flex container */
+            flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+        }
+
+        .section {
+            width: 30%;
+            text-align: center; /* Center align the sections */
+            margin-bottom: 20px; /* Add space between sections */
+        }
+
+        .section h3 {
+            color: #0099cc;
+        }
+
+        .section p {
+            margin-top: 10px;
+        }
+
+        /* Added styles for the second flex container */
+        .flex-container-2 {
+            display: flex;
+            justify-content: center; /* Center align the content in the second flex container */
+            align-items: center; /* Center align the content in the second flex container */
+            margin-top: 20px;
+            border: 5px solid black; /* Thick black border for the second flex container */
+            flex-wrap: wrap;
+        }
+
+        .section-2 {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-2 h3 {
+            color: #0099cc;
+        }
+
+        .section-2 p {
+            margin-top: 10px;
+        }
+        .sectionSkills {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .sectionSkills p {
+            margin-bottom: 20px;
+        }
+
+        .sectionSkills img {
+            height: 150px; /* Set the height of the images */
+            width: 170px; /* Set the width of the images */
+            margin: 10px; /* Add margin to space out the images */
+            border: 5px solid black; /* Black border around each image */
+            border-radius: 10px; /* Rounded edges for the border */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow behind each image */
+        }
+
+        .w3-content p {
+            font-size: 1.2em; /* Increase font size by 4 */
+        }
+        @media screen and (max-width: 600px) {
+            /* Styles for small screens */
+            .flex-container, .flex-container-2 {
+                flex-direction: column;
+            }
+
+            .section, .sectionSkills {
+                width: 100%;
+            }
+
+            .section img {
+                width: 80%; /* Adjust image width for small screens */
+            }
+            .w3-bar a {
+            display: block;
+            width: 100%;
+            text-align: left;
+            }
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 1024px) {
+            /* Styles for medium screens */
+            .flex-container, .flex-container-2 {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .w3-bar a {
+                width: 100%;
+                text-align: center;
+            }
+            .section, .sectionSkills {
+                width: 48%; /* Adjust width for medium screens */
+            }
+
+            .section img {
+                width: 100%; /* Adjust image width for medium screens */
+            }
+        }
+
+        
+    </style>
+    </head>
+</body>
+
+<section id="about" class="w3-container w3-light-grey w3-padding-64">
+    <div class="w3-content">
+        <h2>About the World of Snowboarding</h2>
+        <p>Snowboarding is an exhilarating winter sport that involves descending a snow-covered slope on a snowboard. It's a thrilling way to experience the mountains and the fresh powder. Whether you're a beginner, seasoned rider, thrill seaker, or professional, there's something for everyone in the world of snowboarding.</p>
+    </div>
+</section>
+
+<div class="flex-container">
+    <div class="section">
+        <h3>Snowboarding History</h3>
+        <p>Snowboarding, a dynamic winter sport, traces its roots to the 1960s and 1970s when enthusiasts sought alternative ways to enjoy snowy slopes. Sherman Poppen is credited with inventing the first snowboard, known as the "Snurfer," in 1965, which consisted of a board with a rope for stability. The sport gained momentum in the 1970s, especially in the United States, with pioneers like Jake Burton Carpenter refining snowboard designs and introducing the binding system. Despite initial resistance from ski resorts, snowboarding's popularity soared, leading to its inclusion in the Winter Olympics in 1998. Today, snowboarding stands as a mainstream and diverse winter activity embraced globally for its thrilling maneuvers and creative expression on the mountains.</p>
+    </div>
+
+    <div class="section">
+        <h3>Snowboarding Today</h3>
+        <p>As of the present day, the world of snowboarding encompasses a vibrant spectrum of engagement, from professional competitions to the grassroots level. At the professional tier, elite athletes showcase incredible skill and creativity in events such as the Winter X Games and the Winter Olympics, pushing the boundaries of the sport with gravity-defying tricks and maneuvers. Meanwhile, at the amateur level, snowboarding continues to be accessible to enthusiasts of all ages and skill levels, fostering a community-driven ethos where individuals can hone their skills and share their passion for the mountains. Media coverage plays a crucial role, with social media platforms, documentaries, and traditional broadcasts providing extensive coverage, allowing fans to stay connected with their favorite riders and events. The current state of snowboarding reflects a dynamic and inclusive culture, where innovation and camaraderie thrive across diverse levels of engagement.</p>
+    </div>
+</div>
+   
+<!-- Moved "Skills and Styles" below the first box but above the second box-->
+    <div class="sectionSkills">
+        <h3>Skills and Styles</h3>
+        <p>Enhance your understanding of snowboarding skills and various styles. From tricks to techniques, there's a lot to explore on the slopes.</p>
+        
+        <img src="imgs/beginner.jpg" alt="beg" class="beginner">
+        <img src="imgs/advanced.jpg" alt="adv" class="advanced">
+        <img src="imgs/backcountrypic.jpg" alt="bc" class="bcountry">
+        <img src="imgs/slopestyle.jpg" alt="slope" class="slope">
+        <img src="imgs/racing.jpg" alt="race" class="race">
+    </div>
+
+    
+<div class="flex-container-2">
+    <div class="section">
+        <h3>Beginner Snowboarding</h3>
+        <p>Start your snowboarding journey with the basics. Learn about balance, turning, and building confidence on the slopes.</p>
+    </div>
+
+    <div class="section">
+        <h3>Advanced Snowboarding</h3>
+        <p>Challenge yourself with advanced techniques and maneuvers. Master carving, jumps, and other skills to elevate your riding.</p>
+    </div>
+
+    <div class="section">
+        <h3>Backcountry Snowboarding</h3>
+        <p>Experience the thrill of untouched powder and explore remote, challenging terrains. Learn about safety and navigation in the backcountry.</p>
+    </div>
+
+    <div class="section">
+        <h3>Slopestyle and Freestyle</h3>
+        <p>Unleash your creativity with tricks and jumps in terrain parks. Explore the world of slopestyle and freestyle snowboarding.</p>
+    </div>
+
+    <div class="section">
+        <h3>Snowboard Racing</h3>
+        <p>Feel the need for speed? Learn about the exciting world of snowboard racing, from slalom courses to downhill racing.</p>
+    </div>
+</div>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-card w3-left-align w3-large w3-padding-0">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-small w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-padding-large">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-padding-large">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    </div>
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+        <a href="#" class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a href="#" class="fa fa-instagram w3-hover-opacity"></a>
+        <a href="#" class="fa fa-snapchat w3-hover-opacity"></a>
+        <a href="#" class="fa fa-pinterest-p w3-hover-opacity"></a>
+        <a href="#" class="fa fa-twitter w3-hover-opacity"></a>
+        <a href="#" class="fa fa-linkedin w3-hover-opacity"></a>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>

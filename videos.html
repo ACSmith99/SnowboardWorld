@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Everything Snowboards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+         body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .w3-bar, h1, button {
+            font-family: "Cursive, Fantasy";
+        }
+        .w3-bar {
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .w3-bar a {
+            color: #ffffff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #0099cc;
+        }
+        .w3-container {
+            background-color: #f2f2f2;
+        }
+        .w3-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .w3-button {
+            background-color: #0099cc;
+            color: #ffffff;
+        }
+        .w3-button:hover {
+            background-color: #006699;
+        }
+        .w3-opacity {
+            opacity: 0.7;
+        }
+        a{
+            text-decoration: none;
+        }
+        #videos h3{
+            
+            color: black;
+            text-decoration: underline;
+            padding: 10px;
+            margin: 10px 0;
+
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+          /* Media Queries for responsiveness */
+          @media screen and (max-width: 768px) {
+            #videos h3 {
+                font-size: 1.5em;
+            }
+
+            .video-container {
+                margin-top: 10px;
+            }
+
+            .video-container iframe {
+                height: 200px; /* Adjust the height as needed for smaller screens */
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            #videos h3 {
+                font-size: 1.2em;
+            }
+
+            .video-container {
+                margin-top: 5px;
+            }
+
+            .video-container iframe {
+                height: 150px; /* Adjust the height as needed for even smaller screens */
+            }
+        }
+    </style>
+ </head>
+<section id="videos" class="w3-container w3-light-grey w3-padding-64">
+    <div class="w3-content w3-center">
+        <h2>Snowboarding Videos</h2>
+
+        <div class="w3-row-padding">
+            <div class="w3-third">
+                <h3>Beginner Lessons</h3>
+                <div class="video-container">
+                    <!-- YouTube Embedded Player for Video 1 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OsbpD8BN10k" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="video-blurb">Begin your shredding journey with some of these instructional videos!</p>
+            </div>
+
+            <div class="w3-third">
+                <h3>Casual Shredding</h3>
+                <div class="video-container">
+                    <!-- YouTube Embedded Player for Video 3 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ky9Ac0bilJU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="video-blurb">Relax and have fun with casual shredding. Discover scenic slopes and the joy of laid-back snowboarding.</p>
+            </div>
+
+            <div class="w3-third">
+                <h3>Park Riding</h3>
+                <div class="video-container">
+                    <!-- YouTube Embedded Player for Video 2 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aINlzgrOovI" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="video-blurb">Enjoy the excitement of park riding with tricks, jumps, and stylish maneuvers. Elevate your snowboarding skills.</p>
+            </div>
+
+            <div class="w3-third">
+                <h3>Backcountry Boarding</h3>
+                <div class="video-container">
+                    <!-- YouTube Embedded Player for Video 4 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SCuY6osbOTs" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="video-blurb">Experience the thrill of backcountry snowboarding. Explore untouched powder and challenging terrains.</p>
+            </div>
+
+            <div class="w3-third">
+                <h3>Snowboard Racing</h3>
+                <div class="video-container">
+                    <!-- YouTube Embedded Player for Video 5 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T66EK0OvcL0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="video-blurb">Feel the adrenaline with snowboard racing action. Watch skilled riders compete for victory!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-card w3-left-align w3-large w3-padding-0">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-small w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+       
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-padding-large">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-padding-large">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+        <a href="#" class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a href="#" class="fa fa-instagram w3-hover-opacity"></a>
+        <a href="#" class="fa fa-snapchat w3-hover-opacity"></a>
+        <a href="#" class="fa fa-pinterest-p w3-hover-opacity"></a>
+        <a href="#" class="fa fa-twitter w3-hover-opacity"></a>
+        <a href="#" class="fa fa-linkedin w3-hover-opacity"></a>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+</html>

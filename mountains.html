@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Everything Snowboards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Bebas Neue', sans-serif;
+            text-align: center;
+        }
+        .w3-bar, button {
+            font-family: "Cursive, Fantasy";
+        }
+        .w3-bar {
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .w3-bar a {
+            color: #ffffff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #0099cc;
+        }
+        .w3-container {
+            background-color: #f2f2f2;
+        }
+        .w3-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .w3-button {
+            background-color: #0099cc;
+            color: #ffffff;
+        }
+        .w3-button:hover {
+            background-color: #006699;
+        }
+        .w3-opacity {
+            opacity: 0.7;
+        }
+        a{
+            text-decoration: none;
+        }
+        .footer{
+            padding-top: 20px;
+        }
+        .p1{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            font-size: 3em;
+        }
+        .w3-content{
+            justify-content: center;
+            text-align: center;
+        }
+        #Mountains img, #NH img, #Me img, #Vt img {
+            width: 200px; /* Adjust the width as needed */
+            height: 200px; /* Adjust the height as needed */
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 10px #888888;
+            align-content: center;
+        }
+
+        .w3-container img {
+            width: 100%; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio for the height */
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 10px #888888;
+            align-content: center;
+        }
+         /* Media Queries for responsiveness */
+         @media screen and (max-width: 768px) {
+            .p1 {
+                font-size: 2em;
+            }
+
+            #Mountains img, #NH img, #Me img, #Vt img, .w3-container img {
+                width: 100%;
+            }
+        }
+        
+    </style>
+ </head>
+ <body>
+
+    <div><section id="Mountains" class="w3-container w3-xlarge">
+    <div class="w3-content">
+        <h1>Find a Mountain</h1>
+        <p> Here we will provide you with what we feel are the best mountains in New England for all types of riders, from small beginner mountains to the biggest mountains in the east, here is our favorite selection!</p>
+    </div>
+</div>
+</section>
+
+<!-- Body content for each category -->
+<div><section id="NH" class="w3-container w3-padding-64">
+    <h2>New Hampshire</h2>
+    <p>The best mountains in New Hampshire for all types of snowboarding are these mountains, the order will coincide with the pictures. Mcintyre, Pats Peak, Loon, and Sunnapee. These are some of the best mountains for beginners-experts in all of New England.</p>
+        <img src="imgs/mcintyre.jpg" alt="mcintyre" style="width: 200px;">
+        <img src="imgs/patspeak.png" alt="pats">
+        <img src="imgs/loon.jpg" alt="loon">
+        <img src="imgs/sunnappe.jpg" alt="sun">
+</section>
+</div>
+
+<div><section id="Me" class="w3-container w3-padding-64">
+    <h3>Maine</h3>
+    <p>Discover the best mountains in maine from Saddleback, to Sugarloaf, and Sunday River. With mountains such as Sunday River including seven peaks, there are hundreds if not thousands of hours of shredding capability.</p>
+        <img src="imgs/saddlebackmountain.JPG" alt="sb" style="width: 200px;">
+        <img src="imgs/sugarloaf.jpg" alt="loaf">
+        <img src="imgs/sundayriver.jpg" alt="sunday">
+</section>
+</div>
+
+<div><section id="Vt" class="w3-container w3-padding-64">
+    <h4>Vermont</h4>
+    <p> Discover some of the biggest and best mountains in New England, from X-games sized terrain parks to olympi style moguls to the easiest of bunny carpets. .</p>
+        <img src="imgs/stowe.jpg" alt="stowe"> 
+        <img src="imgs/okemo.jpg" alt="okemo">
+        <img src="imgs/magicmountain.jpg" alt="magic">
+</section>
+</div>
+</body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-card w3-left-align w3-large w3-padding-0">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-small w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+        
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="gear.html" class="w3-bar-item w3-button w3-padding-large">Gear</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+        <a href="mountains.html" class="w3-bar-item w3-button w3-padding-large">Mountains</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge">
+        <a href="#" class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a href="#" class="fa fa-instagram w3-hover-opacity"></a>
+        <a href="#" class="fa fa-snapchat w3-hover-opacity"></a>
+        <a href="#" class="fa fa-pinterest-p w3-hover-opacity"></a>
+        <a href="#" class="fa fa-twitter w3-hover-opacity"></a>
+        <a href="#" class="fa fa-linkedin w3-hover-opacity"></a>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+</html>
